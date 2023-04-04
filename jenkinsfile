@@ -1,0 +1,12 @@
+node {
+    
+    stage('revant') {
+        echo 'hello revanth'
+        
+    }
+       
+    stage('result') {
+        echo 'hai revant'
+        
+    }
+}
