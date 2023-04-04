@@ -1,0 +1,48 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('hai') {
+            steps {
+                echo 'hai raventh'
+            }
+        }
+        stage('hhh') {
+            steps {
+                echo 'hhhhhhhhhhhh'
+            }
+        }
+        stage('kkkk') {
+            steps {
+                echo 'kkkkkkkkkkkkkk'
+            }
+        }
+       stage('Hello-1') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('hai-1') {
+            steps {
+                echo 'hai raventh'
+            }
+        }
+        stage('hhh-1') {
+            steps {
+                echo 'hhhhhhhhhhhh'
+            }
+        }
+        stage('kkkk-1') {
+            steps {
+                echo 'kkkkkkkkkkkkkk'
+            }
+        }
+        
+       
+    }
+}
